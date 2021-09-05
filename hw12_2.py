@@ -45,7 +45,7 @@ print('Date Of Death: ', by_date)
 
 
 def sort_by_text_len(data):
-    return sorted(data, key=lambda k: len(k['years']))
+    return sorted(data, key=lambda k: len(k['text']))
 
 
 by_len = sort_by_text_len(mathematics)
